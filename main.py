@@ -35,7 +35,7 @@ def retrive_page_no(search_term):
     except:
         print("ERrro")
         page_number = 0
-        save_page_no(search_term,0)
+        save_page_no(search_term,"0")
     return page_number
 
 
